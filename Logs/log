@@ -1,0 +1,64 @@
+[alpha.prom+X9000]
+[1.8.420]
+- Revised into linux ver due to main device incident.
+- Substituted 'std::format' for fmt 'libfmt-dev'
+- Entirely re-wrote 'Rapeware Engine' for Linux.
+==========================================================================================
+[1.8.5+wip]
+[26.11.1]:
+- Added: Refactored Loading Routine
+- Added: Early Main Menu (v1.0)
+        Main Menu 1.0.0
+            - Added: poc's for Version Preferences, window flags etc.
+        Main Menu 1.5.0
+            - Added: Incorporated loading procedure
+                -- Refactoring render loop.
+        Main Menu 1.5.2
+            - Fixed: Issue with 'Start' handling.
+
+- Issue refactoring loading routine:
+    - Deprecated New/Rollback to old Routine.
+
+- Added: Early-Sprites and extra renders
+- Fixed: Shutdown procedure.
+
+[26.11.6]:
+- Engine: [1.4.21]:
+    - Updated: Color Scheme
+    - Updated: Console:
+    - Fixed: 'help' command.
+==========================================================================================
+
+[1.8.10+wip]
+[26.11.7]:
+- Fixed: Various issues regarding Windows handling and Crash-handling.
+- Issue refactoring sprites
+    - Added: Crash prevention
+- Updated: Controls into Watermark (first-time)
+- Updated: Engine Main Menu:
+    - Checkboxes; rather than plain text, on some options.
+    - Added: 'Show Controls' option 
+
+[26.11.11]:
+- Introduced: Launch Arguments: 
+    [--simcrash] [--force](default)
+       (Self-Explainatory)
+- Introduced: CASE Logging.
+- Deprecated Console: [b.1262][CASE.8yXoXw]
+
+
+==========================================================================================
+Available Tester Versions:
+- "Available Archives"
+- [1.8.10-alpha.prom+wip-1262+X9000]<CURRENT
+- [1.8.11-alpha-prom+wip-1367+X9000]<UPCOMING
+======
+Available Archives:
+        LEGACY:
+            Alpha:
+                [alpha.prom_1.8.420+1080]
+======
+END-OF-LIFE:
+    Alpha:
+        [alpha.prom_1.8.5+1080]--FATAL
+======
